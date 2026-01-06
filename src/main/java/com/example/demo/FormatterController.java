@@ -12,7 +12,7 @@ import java.util.List;
 import org.apache.poi.openxml4j.util.ZipSecureFile;
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://doc-formatter.vercel.app/")
 public class FormatterController {
 
     @PostMapping("/format-my-project")
